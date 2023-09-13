@@ -5,7 +5,7 @@
 
 @layer base {
 	body{
-		@apply bg-off-white text-deep-blue
+		@apply text-off-white bg-deep-blue
 	}
 
 	h1, h2, h3, h4{
