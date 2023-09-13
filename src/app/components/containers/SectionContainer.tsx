@@ -12,7 +12,7 @@ function SectionContainer({
 	sectionTitle,
 }: SectionContainerProps) {
 	return (
-		<section className="min-h-screen p-6" id={id}>
+		<section className="min-h-screen px-6" id={id}>
 			<SectionTitle title={sectionTitle} />
 			{children}
 		</section>
