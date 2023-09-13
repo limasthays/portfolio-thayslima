@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid'
 
 function ProjectsSection() {
 	return (
-		<SectionContainer id="projects" sectionTitle="projetos">
+		<SectionContainer id="projects" sectionTitle="projetos" whiteVariant={true}>
 			<div>
 				{projectsContent.map((item) => (
 					<ProjectCard
