@@ -3,7 +3,7 @@ function MenuBar() {
 		{ title: 'home', link: '#' },
 		{ title: 'projetos', link: '#projects' },
 		{ title: 'sobre mim', link: '#about' },
-		{ title: 'habilidades', link: '#skills' },
+		{ title: 'skills', link: '#skills' },
 	]
 
 	return (
