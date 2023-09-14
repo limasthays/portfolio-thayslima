@@ -8,7 +8,7 @@ function MenuBar() {
 
 	return (
 		<div className="flex justify-center">
-			<nav className="fixed bottom-4 h-10 md:h-12 flex gap-2 md:gap-4 items-center px-4 md:px-6 text-off-white bg-very-deep-blue rounded-full">
+			<nav className="fixed z-50 bottom-4 h-10 md:h-12 flex gap-2 md:gap-4 items-center px-4 md:px-6 text-off-white bg-very-deep-blue rounded-full">
 				{sections.map((item) => (
 					<a
 						className="font-bold text-xs md:text-sm"
