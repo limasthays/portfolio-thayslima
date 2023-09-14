@@ -6,7 +6,7 @@ import { nanoid } from 'nanoid'
 function ProjectsSection() {
 	return (
 		<SectionContainer id="projects" sectionTitle="projetos" whiteVariant={true}>
-			<div className="flex flex-col items-center md:items-start gap-6 md:justify-center">
+			<div className="flex flex-col gap-6 items-center md:items-start md:justify-center">
 				{projectsContent.map((item) => (
 					<ProjectCard
 						img={item.img}

@@ -16,15 +16,15 @@ function SectionContainer({
 }: SectionContainerProps) {
 	return (
 		<>
-			<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />
 			<section
 				className={clsx(
-					`min-h-screen px-6 pt-2 pb-6 w-full ${
+					`min-h-screen px-5 md:px-6 pb-10 w-full ${
 						whiteVariant && 'bg-off-white text-deep-blue'
 					}`
 				)}
 				id={id}
 			>
+				<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />
 				{children}
 			</section>
 		</>

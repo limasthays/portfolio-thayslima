@@ -6,14 +6,14 @@ function SectionTitle({ title, whiteVariant }: SectionTitleProps) {
 	return (
 		<div
 			className={clsx(
-				`flex gap-2 items-center sticky top-0 pl-6 py-4 w-full ${
+				`flex gap-2 items-center sticky top-0 w-full py-4 ${
 					whiteVariant ? 'bg-off-white' : 'bg-deep-blue'
 				}`
 			)}
 		>
 			<h2
 				className={clsx(
-					`uppercase font-bold text-xl min-w-fit ${
+					`uppercase font-bold text-lg min-w-fit ${
 						whiteVariant ? 'text-deep-blue' : 'text-off-white'
 					}`
 				)}
