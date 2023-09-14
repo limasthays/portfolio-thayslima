@@ -1,4 +1,4 @@
-import Mockup from '../assets/images/IMG_0930.png'
+import Mockup from '../assets/images/cropped_mockup.png'
 
 export const projectsContent = [
 	{
