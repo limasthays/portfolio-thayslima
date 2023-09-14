@@ -35,14 +35,14 @@ function ProjectCard({
 			<Image
 				src={img}
 				alt="project mockup"
-				className="w-full max-w-xs md:max-w-md mb-2"
+				className="w-full max-w-xs md:max-w-md"
 			/>
 
 			<div className="flex flex-col gap-2">
 				<div className="text-center md:text-left">
 					<p className="font-light text-xs md:text-sm">{projectTags}</p>
-					<h3 className="uppercase font-bold md:text-2xl">{title}</h3>
-					<p className="font-light text-sm md:text-base">{techs}</p>
+					<h3 className="uppercase font-bold md:text-xl">{title}</h3>
+					<p className="font-light text-sm md:text-[15px]">{techs}</p>
 				</div>
 
 				<div className="flex gap-2">
@@ -70,7 +70,7 @@ function ProjectCard({
 						/>
 					</button>
 				</div>
-				<p className="text-sm hidden md:block">{about}</p>
+				<p className="text-sm hidden md:block md:mt-2">{about}</p>
 			</div>
 
 			{isTextVisible && <p className="text-sm">{about}</p>}
