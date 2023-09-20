@@ -52,7 +52,9 @@ function ProjectCard({
 							key={item.title}
 							className="border border-deep-blue rounded px-2 py-1 font-bold text-xs md:text-sm md:px-4"
 						>
-							<a href={item.link}>{item.title}</a>
+							<a href={item.link} target="_blank">
+								{item.title}
+							</a>
 						</button>
 					))}
 

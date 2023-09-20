@@ -26,7 +26,9 @@ function SocialMediaLinks() {
 					title={item.title}
 					className="text-off-white text-2xl"
 				>
-					<a href={item.link}>{item.icon}</a>
+					<a href={item.link} target="_blank">
+						{item.icon}
+					</a>
 				</li>
 			))}
 		</ul>
