@@ -6,8 +6,8 @@ function SectionTitle({ title, whiteVariant }: SectionTitleProps) {
 	return (
 		<div
 			className={clsx(
-				`flex gap-2 md:gap-4 items-center sticky top-0 w-full py-4 z-40 ${
-					whiteVariant ? 'bg-off-white' : 'bg-deep-blue'
+				`flex gap-2 md:gap-4 items-center sticky top-0 w-full py-4 z-40 backdrop-blur ${
+					whiteVariant ? 'bg-off-white/50' : 'bg-deep-blue/75'
 				}`
 			)}
 		>
