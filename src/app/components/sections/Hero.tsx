@@ -2,7 +2,7 @@ import SocialMediaLinks from '../buttons/SocialMediaLinks'
 
 function HeroSection() {
 	return (
-		<section className="bg-deep-blue min-h-screen p-9 text-off-white ">
+		<section className="min-h-screen p-9">
 			<div className="flex flex-col gap-4">
 				<p className="font-semibold text-xl">
 					Olá! Eu sou
