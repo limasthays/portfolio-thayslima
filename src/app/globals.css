@@ -5,10 +5,34 @@
 
 @layer base {
 	body{
-		@apply text-off-white bg-deep-blue
+		@apply text-off-white bg-very-deep-blue
 	}
 
 	h1, h2, h3, h4{
 		@apply font-black
 	}
+}
+
+.noisy-bg{
+	background-image: url("../app/assets/noise.png");
+	width: 300%;
+	height: 300%;
+	position: fixed;
+	z-index: -50;
+	left: -50%;
+	top: -120%;
+	opacity: .2;
+	animation: grain 2s steps(5) infinite;
+}
+
+@keyframes grain {
+	0%{ transform:translate(0, 0) }
+	
+	25% { transform:translate(5%, -5%) }
+
+	50% { transform:translate(10%, 0%) }
+	
+	75% { transform:translate(5%, 5%) }
+	
+	100% { transform:translate(0, 0) }
 }

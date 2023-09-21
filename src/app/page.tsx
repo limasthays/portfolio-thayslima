@@ -8,6 +8,7 @@ export default function Home() {
 	return (
 		<>
 			<main>
+				<div className="noisy-bg"></div>
 				<HeroSection />
 				<ProjectsSection />
 				<AboutSection />
