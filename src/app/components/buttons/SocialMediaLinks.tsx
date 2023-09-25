@@ -24,7 +24,7 @@ function SocialMediaLinks() {
 				<li
 					key={item.title}
 					title={item.title}
-					className="text-blush-pink text-2xl"
+					className="text-blush-pink text-2xl lg:text-4xl"
 				>
 					<a href={item.link} target="_blank">
 						{item.icon}
