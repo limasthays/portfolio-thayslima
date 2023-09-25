@@ -17,11 +17,9 @@ function SectionContainer({
 	return (
 		<>
 			<section
-				className={clsx(
-					`min-h-screen px-5 md:px-6 pb-10 w-full ${
-						whiteVariant && 'bg-off-white text-deep-blue'
-					}`
-				)}
+				className={clsx('min-h-screen px-5 md:px-6 pb-10 w-full', {
+					'bg-off-white text-deep-blue': whiteVariant,
+				})}
 				id={id}
 			>
 				<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />
