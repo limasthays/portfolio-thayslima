@@ -15,17 +15,17 @@ function SectionContainer({
 	whiteVariant,
 }: SectionContainerProps) {
 	return (
-		<>
-			<section
-				className={clsx('min-h-screen px-5 md:px-6 pb-10 w-full', {
-					'bg-off-white text-deep-blue': whiteVariant,
-				})}
-				id={id}
-			>
-				<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />
+		<section
+			id={id}
+			className={clsx({
+				'bg-off-white text-deep-blue': whiteVariant,
+			})}
+		>
+			<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />
+			<div className="min-h-screen px-5 md:px-6 pb-10 w-full flex items-center justify-center">
 				{children}
-			</section>
-		</>
+			</div>
+		</section>
 	)
 }
 
