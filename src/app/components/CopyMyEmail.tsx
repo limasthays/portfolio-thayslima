@@ -1,5 +1,3 @@
-'use client'
-
 import { useState } from 'react'
 
 function CopyMyEmail() {
@@ -20,9 +18,9 @@ function CopyMyEmail() {
 				handleCopyEmail()
 			}}
 		>
-			<p className="text-sm font-bold">limasthays@gmail.com</p>
+			<p className="text-sm font-bold cursor-pointer">limasthays@gmail.com</p>
 			<span className="text-xs">
-				{emailCopied ? 'email copiado. fala comigo :)' : 'clique para copiar'}
+				{emailCopied ? 'email copiado!' : 'clique para copiar'}
 			</span>
 		</div>
 	)

@@ -1,3 +1,5 @@
+'use client'
+
 import MenuBar from './components/MenuBar'
 import AboutSection from './components/sections/About'
 import HeroSection from './components/sections/Hero'
