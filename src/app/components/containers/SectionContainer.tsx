@@ -17,12 +17,12 @@ function SectionContainer({
 	return (
 		<section
 			id={id}
-			className={clsx({
+			className={clsx('min-h-screen', {
 				'bg-off-white text-deep-blue': whiteVariant,
 			})}
 		>
 			<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />
-			<div className="min-h-screen px-5 md:px-6 pt-6 pb-10 w-full flex items-center justify-center">
+			<div className="px-5 md:px-6 pt-6 pb-10 w-full flex items-center justify-center">
 				{children}
 			</div>
 		</section>
