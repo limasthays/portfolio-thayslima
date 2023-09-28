@@ -1,10 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Karla } from 'next/font/google'
 
-const poppins = Poppins({
+const karla = Karla({
+	weight: ['200', '300', '400', '600', '700', '800'],
 	subsets: ['latin'],
-	weight: ['300', '400', '500', '600', '700'],
 })
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="pt-br">
-			<body className={poppins.className}>{children}</body>
+			<body className={karla.className}>{children}</body>
 		</html>
 	)
 }
