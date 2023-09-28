@@ -8,14 +8,14 @@ function AboutSection() {
 	return (
 		<SectionContainer id="about" sectionTitle="sobre mim">
 			<div className="flex flex-col lg:flex-row items-center lg:items-end lg:justify-center gap-4 lg:gap-8">
-				<div className="flex flex-col items-center gap-3 lg:w-[20%]">
+				<div className="flex flex-col items-center gap-3 lg:w-[20%] max-w-xs md:max-w-sm">
 					<Image
 						src={Portrait}
 						alt="Retrato da desenvolvedora da página"
-						className="rounded-2xl w-full max-w-sm"
+						className="rounded-2xl w-full"
 					/>
 
-					<p className="font-bold md:text-lg text-blush-violet text-center w-full max-w-sm">
+					<p className="font-extrabold text-blush-violet md:text-lg text-center w-full">
 						“I don&apos;t know where I&apos;m going from here, but I promise, it
 						won&apos;t be boring”
 						<br />
@@ -24,8 +24,8 @@ function AboutSection() {
 				</div>
 
 				<div className="lg:w-[40%] flex flex-col gap-3">
-					<SocialMediaLinks />
-					<p className="text-sm text-justify">
+					<SocialMediaLinks size="small" className="mx-auto md:mx-0" />
+					<p className="text-sm md:text-base text-justify">
 						Oie! Eu sou Thays, desenvolvedora web. Sou formada em Design
 						Gráfico, Desenvolvimento Web Front-end pela Kenzie Academy Brasil e
 						pós-granduanda em Desenvolvimento Fullstack. Sou talentosa,
@@ -37,7 +37,7 @@ function AboutSection() {
 					</p>
 					<hr className="border border-blush-violet w-full" />
 
-					<p className="text-sm text-justify">
+					<p className="text-sm md:text-base text-justify">
 						Além de apaixonada pelo meu trabalho, adoro música alternativa,
 						filmes antigos, ir em festas e tenho uma pequena obsessão com One
 						Piece. 👒 Sinta-se livre para conversar comigo sobre esses assuntos.

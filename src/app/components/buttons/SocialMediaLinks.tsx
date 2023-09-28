@@ -1,6 +1,12 @@
+import clsx from 'clsx'
 import { FaLinkedin, FaGithub, FaAddressCard } from 'react-icons/fa'
 
-function SocialMediaLinks() {
+type SocialMediaLinksProps = {
+	className?: string
+	size: 'normal' | 'small'
+}
+
+function SocialMediaLinks({ className, size }: SocialMediaLinksProps) {
 	const socialLinks = [
 		{
 			title: 'LinkedIn',
@@ -8,7 +14,7 @@ function SocialMediaLinks() {
 			link: 'https://www.linkedin.com/in/limasthays/',
 		},
 		{
-			title: 'Githun',
+			title: 'Github',
 			icon: <FaGithub />,
 			link: 'https://github.com/limasthays',
 		},
@@ -19,12 +25,15 @@ function SocialMediaLinks() {
 		},
 	]
 	return (
-		<ul className="flex gap-2">
+		<ul className={clsx('flex gap-2', className ?? '')}>
 			{socialLinks.map((item) => (
 				<li
 					key={item.title}
 					title={item.title}
-					className="text-blush-violet text-2xl lg:text-4xl"
+					className={clsx('text-blush-violet', {
+						'text-3xl lg:text-4xl': size === 'normal',
+						'text-2xl': size === 'small',
+					})}
 				>
 					<a href={item.link} target="_blank">
 						{item.icon}

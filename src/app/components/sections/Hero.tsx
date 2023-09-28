@@ -29,7 +29,7 @@ function HeroSection() {
 						pós-graduação em fullstack dev.
 					</p>
 
-					<SocialMediaLinks />
+					<SocialMediaLinks size="normal" />
 				</div>
 			</div>
 		</section>
