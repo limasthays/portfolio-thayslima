@@ -38,9 +38,9 @@ function ProjectCard({
 
 			<div className="flex flex-col gap-2">
 				<div className="text-center md:text-left">
-					<p className="font-light text-xs md:text-sm">{projectTags}</p>
-					<h3 className="uppercase font-bold md:text-xl">{title}</h3>
-					<p className="font-light text-sm md:text-[15px]">{techs}</p>
+					<p className="font-semibold text-sm md:text-base">{projectTags}</p>
+					<h3 className="uppercase font-extrabold md:text-xl">{title}</h3>
+					<p className="font-semibold text-sm md:text-base">{techs}</p>
 				</div>
 
 				<div className="flex gap-2">
@@ -60,7 +60,7 @@ function ProjectCard({
 						onClick={() => {
 							setIsTextVisible(!isTextVisible)
 						}}
-						className="flex items-center border border-main-violet px-2 py-1 font-bold text-xs md:hidden"
+						className="flex items-center border rounded border-main-violet px-2 py-1 font-bold text-xs md:hidden"
 					>
 						sobre o app
 						<Image
@@ -72,8 +72,7 @@ function ProjectCard({
 				</div>
 				<p className="text-sm hidden md:block md:mt-2">{about}</p>
 			</div>
-
-			{isTextVisible && <p className="text-sm">{about}</p>}
+			{isTextVisible && <p className="text-sm mt-3">{about}</p>}
 		</div>
 	)
 }
