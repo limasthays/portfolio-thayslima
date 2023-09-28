@@ -25,7 +25,7 @@ function AboutSection() {
 
 				<div className="lg:w-[40%] flex flex-col gap-3">
 					<SocialMediaLinks />
-					<p className="text-sm lg:text-base text-justify">
+					<p className="text-sm text-justify">
 						Oie! Eu sou Thays, desenvolvedora web. Sou formada em Design
 						Gráfico, Desenvolvimento Web Front-end pela Kenzie Academy Brasil e
 						pós-granduanda em Desenvolvimento Fullstack. Sou talentosa,
@@ -37,7 +37,7 @@ function AboutSection() {
 					</p>
 					<hr className="border border-blush-pink w-full" />
 
-					<p className="text-sm lg:text-base text-justify">
+					<p className="text-sm text-justify">
 						Além de apaixonada pelo meu trabalho, adoro música alternativa,
 						filmes antigos, ir em festas e tenho uma pequena obsessão com One
 						Piece. 👒 Sinta-se livre para conversar comigo sobre esses assuntos.
