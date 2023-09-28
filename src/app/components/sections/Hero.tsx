@@ -7,7 +7,7 @@ function HeroSection() {
 				<div className="flex flex-col gap-3 lg:w-1/2">
 					<p className="font-semibold text-lg lg:text-xl">
 						Olá! Eu sou
-						<span className="text-blush-pink"> Thays Lima.</span>
+						<span className="text-blush-violet"> Thays Lima.</span>
 					</p>
 
 					<h1 className="text-5xl md:text-7xl md:w-min">

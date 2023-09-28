@@ -18,7 +18,7 @@ function SectionContainer({
 		<section
 			id={id}
 			className={clsx('min-h-screen', {
-				'bg-off-white text-deep-blue': whiteVariant,
+				'bg-off-white text-main-violet': whiteVariant,
 			})}
 		>
 			<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />

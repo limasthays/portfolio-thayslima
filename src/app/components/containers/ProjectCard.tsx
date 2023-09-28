@@ -29,7 +29,7 @@ function ProjectCard({
 	const [isTextVisible, setIsTextVisible] = useState<boolean>(false)
 
 	return (
-		<div className="flex flex-col md:flex-row items-center md:items-start md:gap-4 md:border md:border-deep-blue md:rounded md:p-4 md:max-w-[800px] md:mx-auto">
+		<div className="flex flex-col md:flex-row items-center md:items-start md:gap-4 md:border md:border-main-violet md:rounded md:p-4 md:max-w-[800px] md:mx-auto">
 			<Image
 				src={img}
 				alt="project mockup"
@@ -48,7 +48,7 @@ function ProjectCard({
 						<button
 							title={item.title}
 							key={item.title}
-							className="border border-deep-blue rounded px-2 py-1 font-bold text-xs md:text-sm md:px-4"
+							className="border border-main-violet rounded px-2 py-1 font-bold text-xs md:text-sm md:px-4"
 						>
 							<a href={item.link} target="_blank">
 								{item.title}
@@ -60,7 +60,7 @@ function ProjectCard({
 						onClick={() => {
 							setIsTextVisible(!isTextVisible)
 						}}
-						className="flex items-center border border-deep-blue px-2 py-1 font-bold text-xs md:hidden"
+						className="flex items-center border border-main-violet px-2 py-1 font-bold text-xs md:hidden"
 					>
 						sobre o app
 						<Image

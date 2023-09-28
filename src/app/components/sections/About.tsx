@@ -15,7 +15,7 @@ function AboutSection() {
 						className="rounded-2xl w-full max-w-sm"
 					/>
 
-					<p className="font-bold md:text-lg text-blush-pink text-center w-full max-w-sm">
+					<p className="font-bold md:text-lg text-blush-violet text-center w-full max-w-sm">
 						“I don&apos;t know where I&apos;m going from here, but I promise, it
 						won&apos;t be boring”
 						<br />
@@ -35,7 +35,7 @@ function AboutSection() {
 						garantem interfaces funcionais, bem feitas e amigáveis para quem as
 						usa.
 					</p>
-					<hr className="border border-blush-pink w-full" />
+					<hr className="border border-blush-violet w-full" />
 
 					<p className="text-sm text-justify">
 						Além de apaixonada pelo meu trabalho, adoro música alternativa,
@@ -45,7 +45,7 @@ function AboutSection() {
 					</p>
 
 					<div>
-						<p className="font-semibold text-blush-pink">
+						<p className="font-semibold text-blush-violet">
 							Me manda uma mensagem?
 						</p>
 						<CopyMyEmail />

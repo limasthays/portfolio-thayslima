@@ -8,10 +8,10 @@ const config: Config = {
 	],
 	theme: {
 		colors: {
-			'deep-blue': '#212859',
-			'off-white': '#D5CDB3',
-			'very-deep-blue': '#151A3D',
-			'blush-pink': '#F08CAE',
+			'main-violet': '#483A58',
+			'off-white': '#EDEAE8',
+			'deep-violet': '#32283E',
+			'blush-violet': '#A288E3',
 		},
 	},
 	plugins: [],
