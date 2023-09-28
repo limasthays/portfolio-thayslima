@@ -8,7 +8,7 @@ function AboutSection() {
 	return (
 		<SectionContainer id="about" sectionTitle="sobre mim">
 			<div className="flex flex-col lg:flex-row items-center lg:items-end lg:justify-center gap-4 lg:gap-8">
-				<div className="flex flex-col items-center gap-3 lg:w-[30%]">
+				<div className="flex flex-col items-center gap-3 lg:w-[20%]">
 					<Image
 						src={Portrait}
 						alt="Retrato da desenvolvedora da página"
