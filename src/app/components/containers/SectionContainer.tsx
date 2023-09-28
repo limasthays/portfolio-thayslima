@@ -22,7 +22,7 @@ function SectionContainer({
 			})}
 		>
 			<SectionTitle title={sectionTitle} whiteVariant={whiteVariant} />
-			<div className="min-h-screen px-5 md:px-6 pb-10 w-full flex items-center justify-center">
+			<div className="min-h-screen px-5 md:px-6 pt-6 pb-10 w-full flex items-center justify-center">
 				{children}
 			</div>
 		</section>
