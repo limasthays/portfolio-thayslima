@@ -29,14 +29,14 @@ function ProjectCard({
 	const [isTextVisible, setIsTextVisible] = useState<boolean>(false)
 
 	return (
-		<div className="flex flex-col md:flex-row items-center md:items-start md:gap-4 md:border md:border-main-violet md:rounded md:p-4 md:max-w-[800px] md:mx-auto">
+		<div className="flex flex-col md:flex-row items-center md:items-start md:gap-4 md:bg-main-violet/5  md:border-0 md:rounded-lg md:p-4 md:max-w-[800px] md:mx-auto">
 			<Image
 				src={img}
 				alt="project mockup"
 				className="w-full max-w-xs md:max-w-md"
 			/>
 
-			<div className="flex flex-col gap-2">
+			<div className="flex flex-col items-center md:items-start gap-2">
 				<div className="text-center md:text-left">
 					<p className="font-semibold text-sm md:text-base">{projectTags}</p>
 					<h3 className="uppercase font-extrabold md:text-xl">{title}</h3>
