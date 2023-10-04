@@ -2,7 +2,10 @@ import SocialMediaLinks from '../buttons/SocialMediaLinks'
 
 function HeroSection() {
 	return (
-		<section className="min-h-screen p-9 flex lg:items-center lg:justify-center">
+		<section
+			className="min-h-screen p-9 flex lg:items-center lg:justify-center"
+			id="home"
+		>
 			<div className="flex flex-col lg:flex-row lg:justify-center lg:items-end gap-5 lg:gap-8">
 				<div className="flex flex-col gap-3 lg:w-1/2">
 					<p className="font-semibold text-lg lg:text-xl">
