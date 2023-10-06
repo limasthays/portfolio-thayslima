@@ -27,8 +27,8 @@ function AboutSection() {
 					<SocialMediaLinks size="small" className="mx-auto md:mx-0" />
 					<p className="text-sm md:text-base text-justify">
 						Oie! Eu sou Thays, desenvolvedora web. Sou formada em Design
-						Gráfico, Desenvolvimento Web Front-end pela Kenzie Academy Brasil e
-						pós-granduanda em Desenvolvimento Fullstack. Sou talentosa,
+						Gráfico, em Desenvolvimento Web Front-end pela Kenzie Academy Brasil
+						e pós-granduanda em Desenvolvimento Web Fullstack. Sou talentosa,
 						criativa, comunicativa e estou sempre em busca de conhecimento.
 						Trago para meu trabalho um ponto de vista voltado para a experiência
 						do usuário (UX/UI) e outros conhecimentos de design gráfico que
@@ -44,12 +44,7 @@ function AboutSection() {
 						:)
 					</p>
 
-					<div>
-						<p className="font-semibold text-blush-violet">
-							Me manda uma mensagem?
-						</p>
-						<CopyMyEmail />
-					</div>
+					<CopyMyEmail />
 				</div>
 			</div>
 		</SectionContainer>
