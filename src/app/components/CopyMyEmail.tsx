@@ -17,7 +17,7 @@ function CopyMyEmail() {
 	return (
 		<div
 			className={clsx(
-				'flex items-center gap-4 border border-blush-violet rounded px-4 py-2 cursor-pointer',
+				'flex items-center gap-4 border border-blush-violet rounded px-3 md:px-4 py-2 cursor-pointer',
 				{
 					'bg-off-white/20': emailCopied,
 				}
@@ -30,7 +30,7 @@ function CopyMyEmail() {
 				<FaEnvelope />
 			</span>
 			<div>
-				<p className="text-blush-violet font-bold text-lg">
+				<p className="text-blush-violet font-bold md:text-lg">
 					Me manda uma mensagem?
 				</p>
 				<p className="text-sm font-bold">limasthays@gmail.com</p>
