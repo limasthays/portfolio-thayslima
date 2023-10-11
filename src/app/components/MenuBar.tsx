@@ -37,7 +37,7 @@ function MenuBar() {
 
 	return (
 		<div className="flex justify-center">
-			<nav className="fixed z-50 bottom-4 h-10 md:h-12 flex gap-2 md:gap-4 items-center px-4 md:px-6 text-off-white bg-deep-violet rounded-full">
+			<nav className="fixed z-50 bottom-4 h-10 md:h-12 flex gap-2 md:gap-4 items-center px-4 md:px-6 text-off-white bg-deep-violet/80 backdrop-blur rounded-full">
 				{sections.map((item) => (
 					<a
 						className={clsx('font-bold text-sm md:text-sm', {
