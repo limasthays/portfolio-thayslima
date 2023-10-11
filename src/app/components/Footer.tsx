@@ -28,7 +28,7 @@ function Footer() {
 	]
 
 	return (
-		<div className="p-10 pb-20 md:px-10 md:py-20 flex gap-5 flex-col md:flex-row md:justify-evenly items-center bg-main-violet">
+		<div className="p-10 pb-20 md:pb-24 md:pt-16 flex gap-5 flex-col md:flex-row md:justify-evenly items-center bg-main-violet">
 			<div>
 				<p className="text-2xl md:text-3xl font-bold">
 					Let&apos;s work together!
