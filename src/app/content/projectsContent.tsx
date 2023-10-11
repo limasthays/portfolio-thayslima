@@ -8,7 +8,7 @@ export const projectsContent = [
 		img: ProximoAndarMockup,
 		projectTags: 'projeto profissional',
 		title: 'Próximo Andar',
-		techs: 'react + next // javascript + typescript // tailwind css',
+		techs: 'react + next, javascript + typescript, tailwind css',
 		links: [
 			{
 				title: 'website',
@@ -16,7 +16,7 @@ export const projectsContent = [
 			},
 		],
 		about:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus odio diam, nec posuere enim pellentesque sed. Quisque eu rutrum erat, a ultricies leo. ',
+			'Próximo Andar é um site de compartilhamento de experiências e avaliação de condomínios residenciais.	Atuei como Desenvolvedora Front-End, otimizei a experiência do usuário na aplicação e também contribuí com a otimização do fluxo de dados no Back-End.',
 	},
 	{
 		img: MultistepFormMockup,
@@ -34,7 +34,7 @@ export const projectsContent = [
 			},
 		],
 		about:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus odio diam, nec posuere enim pellentesque sed. Quisque eu rutrum erat, a ultricies leo. ',
+			'Essa aplicação apresenta um formulário com vários passos de preenchimento. Nele, cada campo preenchido em um passo interfere no próximo passo, exigindo cuidado especial com o gerenciamento de estados. Usei esse case para aprender e praticar a ferramenta SASS no estilo da página.',
 	},
 	{
 		img: StackhubMockup,
@@ -51,8 +51,7 @@ export const projectsContent = [
 				link: 'https://github.com/limasthays/stackhub',
 			},
 		],
-		about:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus odio diam, nec posuere enim pellentesque sed. Quisque eu rutrum erat, a ultricies leo. ',
+		about: '',
 	},
 	{
 		img: MiniBlogMockup,
