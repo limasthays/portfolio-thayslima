@@ -30,10 +30,13 @@ function SocialMediaLinks({ className, size }: SocialMediaLinksProps) {
 				<li
 					key={item.title}
 					title={item.title}
-					className={clsx('text-blush-violet', {
-						'text-3xl lg:text-4xl': size === 'normal',
-						'text-2xl': size === 'small',
-					})}
+					className={clsx(
+						'text-blush-violet hover:scale-125 active:scale-125',
+						{
+							'text-3xl lg:text-4xl': size === 'normal',
+							'text-2xl': size === 'small',
+						}
+					)}
 				>
 					<a href={item.link} target="_blank">
 						{item.icon}
