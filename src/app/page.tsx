@@ -1,5 +1,6 @@
 'use client'
 
+import Footer from './components/Footer'
 import MenuBar from './components/MenuBar'
 import AboutSection from './components/sections/About'
 import HeroSection from './components/sections/Hero'
@@ -15,6 +16,7 @@ export default function Home() {
 				<ProjectsSection />
 				<AboutSection />
 				<SkillsSection />
+				<Footer />
 			</main>
 			<MenuBar />
 		</>
