@@ -15,8 +15,16 @@ export const projectsContent = [
 				link: 'https://proximoandar.com/',
 			},
 		],
-		about:
-			'Próximo Andar é um site de compartilhamento de experiências e avaliação de condomínios residenciais.	Atuei como Desenvolvedora Front-End, otimizei a experiência do usuário na aplicação e também contribuí com a otimização do fluxo de dados no Back-End.',
+		about: (
+			<>
+				Próximo Andar é um site de compartilhamento de experiências e avaliação
+				de condomínios residenciais.
+				<br />
+				Atuei como Desenvolvedora Front-End, otimizei a experiência do usuário
+				na aplicação e também contribuí com a otimização do fluxo de dados no
+				Back-End.
+			</>
+		),
 	},
 	{
 		img: MultistepFormMockup,
@@ -51,7 +59,21 @@ export const projectsContent = [
 				link: 'https://github.com/limasthays/stackhub',
 			},
 		],
-		about: '',
+		about: (
+			<>
+				Stackhub é uma aplicação que permite aos usuários que criem e façam
+				login em seus perfis, cadastrem e editem tecnologias que eles usam. Essa
+				é uma versão refatorada e com visual novo de um projeto original criado
+				no curso de dev. Front-End na Kenzie Academy.{' '}
+				<a
+					href="https://github.com/limasthays/react-entrega-s2-kenzie-hub-limasthays"
+					className="underline"
+					target="_blank"
+				>
+					Confira a primeira versão.
+				</a>
+			</>
+		),
 	},
 	{
 		img: MiniBlogMockup,
@@ -63,8 +85,21 @@ export const projectsContent = [
 				title: 'website',
 				link: 'https://mini-blog-nu.vercel.app/',
 			},
+			{
+				title: 'github',
+				link: 'https://github.com/limasthays/mini-blog',
+			},
 		],
-		about:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus odio diam, nec posuere enim pellentesque sed. Quisque eu rutrum erat, a ultricies leo. ',
+		about: (
+			<>
+				Uma espécie de rede social fictícia (um pouco parecida com o twitter)
+				onde é possível enviar posts, ver os posts de outros usuários na
+				timeline, consultar o perfil e visualizar álbuns e fotos de cada
+				usuário.
+				<br />
+				Os dados de posts e afins, exceto os ícones de perfil, vem de uma API de
+				dados fictícios (JSON placeholder).
+			</>
+		),
 	},
 ]

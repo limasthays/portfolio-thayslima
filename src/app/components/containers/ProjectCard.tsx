@@ -2,7 +2,7 @@ import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 import Image from 'next/image'
 import TriangleOpen from '../../assets/icons/triangle-open.svg'
 import TriangleClose from '../../assets/icons/triangle-close.svg'
-import { useState } from 'react'
+import { ReactNode, useState } from 'react'
 
 type LinkProps = {
 	title: string
@@ -15,7 +15,7 @@ type ProjectCardProps = {
 	title: string
 	techs: string
 	links: LinkProps[]
-	about: string
+	about: ReactNode
 }
 
 function ProjectCard({
@@ -45,15 +45,15 @@ function ProjectCard({
 
 				<div className="flex gap-2">
 					{links.map((item) => (
-						<button
+						<a
 							title={item.title}
 							key={item.title}
+							href={item.link}
+							target="_blank"
 							className="border border-main-violet rounded px-2 py-1 font-bold text-xs md:text-sm md:px-4"
 						>
-							<a href={item.link} target="_blank">
-								{item.title}
-							</a>
-						</button>
+							{item.title}
+						</a>
 					))}
 
 					<button
