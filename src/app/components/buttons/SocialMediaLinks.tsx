@@ -21,7 +21,7 @@ function SocialMediaLinks({ className, size }: SocialMediaLinksProps) {
 		{
 			title: 'Currículo',
 			icon: <FaAddressCard />,
-			link: 'https://drive.google.com/file/d/1bSyAptVcIs3OjDLy9P7JLbH1bFlbf-Nf/view?usp=sharing',
+			link: 'https://drive.google.com/file/d/1o9giZhZxJnYmftbb8og8GVnq4DhGZW7A/view',
 		},
 	]
 	return (
